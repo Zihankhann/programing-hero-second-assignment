@@ -337,16 +337,124 @@ nav {
   gap: 11px;
   padding-right: 12px;
 }
-#grid-c{color: #FF42A5;
-  border: 1px solid #FF42A5 ;
-  border-radius: 50px;}
+
+#grid-c {
+  color: #FF42A5;
+  border: 1px solid #FF42A5;
+  border-radius: 50px;
+}
 
 .grid-1:hover {
   color: #FF42A5;
-  border: 1px solid #FF42A5 ;
+  border: 1px solid #FF42A5;
   border-radius: 50px;
   cursor: pointer;
 }
+
+.footer-container {
+  background: #0B0223;
+  width: 1920px;
+  height: 636px;
+  text-align: center;
+}
+
+.footer-logo {
+  color: #FFF;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.footer-img {
+  width: 60px;
+  height: 35px;
+}
+
+.footer-text-logo {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.footer-ul {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-ul>ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding-top: 40px;
+}
+
+#twitter {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+#facebook {
+  color: #1877F2;
+  border: 1px solid white;
+  padding: 6px 10px;
+  border-radius: 94px;
+  background-color: white;
+}
+
+#youtube1 {
+  color: #F61C0D;
+  font-size: 35px;
+}
+
+#linked {
+  color: #FFF;
+  font-size: 28px;
+}
+
+#instagram {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+#apple {
+  color: #FFF;
+  font-size: 32px;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  padding-top: 55px;
+}
+
+.footer-policy {
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+  padding-top: 115px;
+}
+
+.footer-copyright{color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 40px;}
 
 
 /* @media screen and (max-width:576px) {
@@ -531,18 +639,26 @@ nav {flex-direction: column;}
   }
 
 }
+
 /* this is grid game responsive layout */
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
 
-    .grid-game {display: grid;
-      grid-template-columns: repeat(3, 1fr);
+  .grid-game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
-  gap:2px;}
-
-.grid-1{width: 157px;
-  font-size: 12px;
-  text-align: center;
-  margin: 0 auto;}
-  .grd-img{width: 28px;}
-
+    gap: 2px;
   }
+
+  .grid-1 {
+    width: 157px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .grd-img {
+    width: 28px;
+  }
+
+}
