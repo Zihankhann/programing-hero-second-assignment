@@ -325,7 +325,7 @@ nav {
   flex-wrap: wrap;
   width: 1160px;
   margin: 0 auto;
-  gap: 35px;
+  gap: 19px;
   padding-top: 60px;
   padding-bottom: 80px;
 }
@@ -335,6 +335,17 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 11px;
+  padding-right: 12px;
+}
+#grid-c{color: #FF42A5;
+  border: 1px solid #FF42A5 ;
+  border-radius: 50px;}
+
+.grid-1:hover {
+  color: #FF42A5;
+  border: 1px solid #FF42A5 ;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 
@@ -520,3 +531,18 @@ nav {flex-direction: column;}
   }
 
 }
+/* this is grid game responsive layout */
+  @media (max-width: 768px) {
+
+    .grid-game {display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  gap:2px;}
+
+.grid-1{width: 157px;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;}
+  .grd-img{width: 28px;}
+
+  }
