@@ -351,6 +351,7 @@ nav {
   cursor: pointer;
 }
 
+/* this is footer style css */
 .footer-container {
   background: #0B0223;
   width: 1920px;
@@ -456,15 +457,6 @@ nav {
   font-weight: 500;
   padding-top: 40px;}
 
-
-/* @media screen and (max-width:576px) {
-   
-nav {flex-direction: column;}
-.nav-menu-ul{flex-direction: column;}
-.banner-container{flex-direction: column;}
-.online-games-image{flex-direction: column;}
-
-} */
 
 @media (max-width: 768px) {
   .container {
@@ -640,11 +632,11 @@ nav {flex-direction: column;}
 
 }
 
-/* this is grid game responsive layout */
-@media (max-width: 768px) {
+this is grid game responsive layout */
+/* /* @media (max-width: 768px) { */
 
   .grid-game {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     gap: 2px;
@@ -661,4 +653,73 @@ nav {flex-direction: column;}
     width: 28px;
   }
 
+
+/* footer responsive */
+@media (max-width: 768px) {  
+
+  .footer-container {
+    /* background: #0B0223; */
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footer-img {
+    width: 40px;
+    height: 25px;
+  }
+  
+  .footer-text-logo {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  .footer-ul {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  
+  .footer-ul>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  .footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+  }
+  
+  .footer-policy {
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 40px;
+  }
+  
+
+  .footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+  }
 }
