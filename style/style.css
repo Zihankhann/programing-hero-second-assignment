@@ -635,7 +635,6 @@ nav {
 }
 
 .grid-game {
-  border-top: 2px dotted #F948B2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -654,32 +653,23 @@ nav {
   gap: 10px;
   text-align: center;
   padding: 10px;
-  width: calc(100% / 3); /* Divide the width equally into 3 columns */
+  width: calc(100% / 3);
 }
 
 .grd-img {
   width: 100%;
-  max-width: 200px; /* Adjust the max-width to your preference */
+  max-width: 200px;
 }
 
 #grid-c {
-  color: #FF42A5;
-  border: 1px solid #FF42A5;
   border-radius: 50px;
 }
 
-.grid-1:hover {
-  color: #FF42A5;
-  border: 1px solid #FF42A5;
-  border-radius: 50px;
-  cursor: pointer;
-}
 }
 /* footer responsive */
 @media (max-width: 768px) {  
 
   .footer-container {
-    /* background: #0B0223; */
     width: 100%;
     padding: 40px 20px;
     text-align: center;
